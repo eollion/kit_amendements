@@ -15,13 +15,10 @@ Le dossier **slides** contient des slides reprenant le contenu de presentation.m
 ## Codebook
 Le fichier **codebook.md** contient le codebook final élaboré par itérations successives. 
 
-## Pre-processing 
-Le dossier **preprocessing** contient le code et les explications des différentes étapes de préparation des données qui ont permis d'obtenir un dataset propre pour notre cas à partir de données désagrégées disponibles en ligne. 
+## Source 
+Le dossier **source** contient les différents notebooks et scripts qui ont permis 1) la préparation des données pour obtenir un dataset prêt à utilisation sur ActiveTigger et 2) le processing des prédictions pour dégager des réponses à nos questions de recherche. 
 
 ## Data
 Les données du projet sont disponibles sur Zenodo à l'URL suivante : [INSERT URL].    
-En important le fichier **clean_dataset_annotated.csv** dans ActiveTigger, les utilisateurs peuvent choisir d'importer les annotations existantes ou de les ignorer.   
- 
-## Results
-Le fichier **results.ipynb** présente le processing des prédictions, en particulier la création des graphiques sur les variables concernées par nos questions de recherche. 
+En important le fichier **clean_dataset_annotated.csv** dans ActiveTigger, les utilisateurs peuvent choisir d'importer les annotations existantes ou de les ignorer.  
 
