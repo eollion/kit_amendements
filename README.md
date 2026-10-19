@@ -19,6 +19,6 @@ Le fichier **codebook.md** contient le codebook final élaboré par itérations 
 Le dossier **source** contient les différents notebooks et scripts qui ont permis 1) la préparation des données pour obtenir un dataset prêt à utilisation sur ActiveTigger et 2) le processing des prédictions pour dégager des réponses à nos questions de recherche. 
 
 ## Data
-Les données du projet sont disponibles sur Zenodo à l'URL suivante : [INSERT URL].    
-En important le fichier **clean_dataset_annotated.csv** dans ActiveTigger, les utilisateurs peuvent choisir d'importer les annotations existantes ou de les ignorer.  
-
+Les données du projet sont disponibles sur Zenodo à l'URL suivante : https://doi.org/10.5281/zenodo.23474882. Elles peuvent être téléchargées puis décompressées pour être utilisées.   
+- Le jeu de données **clean_dataset_annotated.csv** est celui que l'on importe dans ActiveTigger pour créer notre classification automatique. Les utilisateurs et utilisatrices de ce tutoriel peuvent choisir d'importer les annotations existantes ou de les ignorer.
+- Les autres fichiers, contenus dans le dossier **data**, permettent d'exécuter le notebook présentant les résultats (results.ipynb). Pour cela, le notebook et le dossier data doivent simplement se trouver dans le même dossier.
